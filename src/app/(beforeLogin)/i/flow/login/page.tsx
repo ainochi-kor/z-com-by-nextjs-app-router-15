@@ -2,7 +2,7 @@ import React from 'react'
 
 const LoginPage = () => {
   return (
-    <div>LoginPage</div>
+    <main>로그인 모달</main>
   )
 }
 
