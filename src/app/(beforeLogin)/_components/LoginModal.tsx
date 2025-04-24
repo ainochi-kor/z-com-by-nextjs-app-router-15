@@ -1,7 +1,5 @@
 "use client";
 
-// 가로채기를 통해 실행되는 부분
-
 import style from "@/app/(beforeLogin)/_components/login.module.css";
 import { useState } from "react";
 
