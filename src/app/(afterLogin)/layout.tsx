@@ -10,8 +10,10 @@ import FollowRecommend from "./_components/FollowRecommend";
 
 export default function AfterLoginLayout({
   children,
+  modal,
 }: {
   children: ReactNode;
+  modal: ReactNode;
 }) {
   return (
     <div className={style.container}>
@@ -59,6 +61,8 @@ export default function AfterLoginLayout({
           </section>
         </div>
       </div>
+      {modal}
     </div>
   );
 }
+ 
